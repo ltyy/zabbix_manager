@@ -101,7 +101,7 @@ class ZabbixAPI(object):
     __password__ = ''
 
     auth = ''
-    url = '/api_jsonrpc.php'
+    url = '/zabbix/api_jsonrpc.php'
     params = None
     method = None
     # HTTP or HTTPS
@@ -129,7 +129,7 @@ class ZabbixAPI(object):
         self._setuplogging()
         self.set_log_level(log_level)
         self.server = server
-        self.url = server + '/api_jsonrpc.php'
+        self.url = server + '/zabbix/api_jsonrpc.php'
         self.proto = self.server.split("://")[0]
         #self.proto=proto
         self.httpuser = user

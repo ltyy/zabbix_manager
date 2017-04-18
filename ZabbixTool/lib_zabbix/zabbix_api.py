@@ -63,7 +63,7 @@ class zabbix_api:
             print("the config file [%s] is not exist"%zabbix_config)
             exit(1)
 
-        self.url = 'http://%s:%s/api_jsonrpc.php' % (self.server,self.port) #修改URL
+        self.url = 'http://%s:%s/zabbix/api_jsonrpc.php' % (self.server,self.port) #修改URL
         self.header = {"Content-Type":"application/json"}
         self.terminal_table=terminal_table
         self.authID = self.__user_login() 

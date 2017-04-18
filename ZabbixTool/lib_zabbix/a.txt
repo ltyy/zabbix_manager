@@ -1,0 +1,54 @@
+1.2.3
+主机:Zabbix server
+主机组:无
+(0l(BAvailability report(0qqqqqqqqwqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqwqqqqqqqqqqwqqqqqqwqqqqqqqqqqqqqk(B
+(0x(B hostname      (0x(B ip        (0x(B Name                                                              (0x(B Problems (0x(B OK   (0x(B prevvalue   (0x(B
+(0tqqqqqqqqqqqqqqqnqqqqqqqqqqqnqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqnqqqqqqqqqqnqqqqqqnqqqqqqqqqqqqqu(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Host name of zabbix_agentd was changed on Zabbix server           (0x(B 0        (0x(B 100% (0x(B 0           (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Zabbix agent on Zabbix server is unreachable for 5 minutes        (0x(B 0        (0x(B 100% (0x(B 1           (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Version of zabbix_agent(d) was changed on Zabbix server           (0x(B 0        (0x(B 100% (0x(B 0           (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Configured max number of opened files is too low on Zabbix server (0x(B 0        (0x(B 100% (0x(B 0           (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Configured max number of processes is too low on Zabbix server    (0x(B 0        (0x(B 100% (0x(B 0           (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Too many processes running on Zabbix server                       (0x(B 0        (0x(B 100% (0x(B 1           (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Too many processes on Zabbix server                               (0x(B 0        (0x(B 100% (0x(B 410         (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Processor load is too high on Zabbix server                       (0x(B 0        (0x(B 100% (0x(B 0.0100      (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Disk I/O is overloaded on Zabbix server                           (0x(B 0        (0x(B 100% (0x(B 0.4606%     (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Hostname was changed on Zabbix server                             (0x(B 0        (0x(B 100% (0x(B 0           (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Lack of free swap space on Zabbix server                          (0x(B 0        (0x(B 100% (0x(B 93.3859%    (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Host information was changed on Zabbix server                     (0x(B 0        (0x(B 100% (0x(B 0           (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Zabbix server has just been restarted                             (0x(B 0        (0x(B 100% (0x(B 60290uptime (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B /etc/passwd has been changed on Zabbix server                     (0x(B 0        (0x(B 100% (0x(B 0           (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Free inodes is less than 20% on volume /                          (0x(B 0        (0x(B 100% (0x(B 99.8246%    (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Free inodes is less than 20% on volume /boot                      (0x(B 0        (0x(B 100% (0x(B 99.9271%    (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Free disk space is less than 20% on volume /                      (0x(B 0        (0x(B 100% (0x(B 65.9705%    (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Free disk space is less than 20% on volume /boot                  (0x(B 0        (0x(B 100% (0x(B 78.4360%    (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Lack of available memory on server Zabbix server                  (0x(B 0        (0x(B 100% (0x(B 521568256B  (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Zabbix alerter processes more than 75% busy                       (0x(B 0        (0x(B 100% (0x(B 0.0000%     (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Zabbix configuration syncer processes more than 75% busy          (0x(B 0        (0x(B 100% (0x(B 0.0169%     (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Zabbix db watchdog processes more than 75% busy                   (0x(B 0        (0x(B 100% (0x(B 0.0000%     (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Zabbix discoverer processes more than 75% busy                    (0x(B 0        (0x(B 100% (0x(B 0.0000%     (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Zabbix escalator processes more than 75% busy                     (0x(B 0        (0x(B 100% (0x(B 0.0508%     (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Zabbix history syncer processes more than 75% busy                (0x(B 0        (0x(B 100% (0x(B 0.1948%     (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Zabbix housekeeper processes more than 75% busy                   (0x(B 0        (0x(B 100% (0x(B 0.0000%     (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Zabbix http poller processes more than 75% busy                   (0x(B 0        (0x(B 100% (0x(B 0.0000%     (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Zabbix icmp pinger processes more than 75% busy                   (0x(B 0        (0x(B 100% (0x(B 0.0000%     (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Zabbix ipmi poller processes more than 75% busy                   (0x(B 0        (0x(B 100% (0x(B 0%          (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Zabbix java poller processes more than 75% busy                   (0x(B 0        (0x(B 100% (0x(B 0%          (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Zabbix poller processes more than 75% busy                        (0x(B 0        (0x(B 100% (0x(B 0.0576%     (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Zabbix proxy poller processes more than 75% busy                  (0x(B 0        (0x(B 100% (0x(B 0.0000%     (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Zabbix self-monitoring processes more than 75% busy               (0x(B 0        (0x(B 100% (0x(B 0.0000%     (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Zabbix snmp trapper processes more than 75% busy                  (0x(B 0        (0x(B 100% (0x(B 0%          (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Zabbix task manager processes more than 75% busy                  (0x(B 0        (0x(B 100% (0x(B 0.0508%     (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Zabbix timer processes more than 75% busy                         (0x(B 0        (0x(B 100% (0x(B 0.0000%     (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Zabbix trapper processes more than 75% busy                       (0x(B 0        (0x(B 100% (0x(B 0.0000%     (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Zabbix unreachable poller processes more than 75% busy            (0x(B 0        (0x(B 100% (0x(B 0.0000%     (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Zabbix vmware collector processes more than 75% busy              (0x(B 0        (0x(B 100% (0x(B 0%          (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B More than 100 items having missing data for more than 10 minutes  (0x(B 0        (0x(B 100% (0x(B 0           (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Less than 25% free in the configuration cache                     (0x(B 0        (0x(B 100% (0x(B 97.9887%    (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Less than 5% free in the value cache                              (0x(B 0        (0x(B 100% (0x(B 99.5316%    (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Zabbix value cache working in low memory mode                     (0x(B 0        (0x(B 100% (0x(B 0           (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Less than 25% free in the vmware cache                            (0x(B 0        (0x(B 100% (0x(B 0%          (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Less than 25% free in the history cache                           (0x(B 0        (0x(B 100% (0x(B 100.0000%   (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Less than 25% free in the history index cache                     (0x(B 0        (0x(B 100% (0x(B 99.7795%    (0x(B
+(0x(B Zabbix server (0x(B 127.0.0.1 (0x(B Less than 25% free in the trends cache                            (0x(B 0        (0x(B 100% (0x(B 99.7154%    (0x(B
+(0mqqqqqqqqqqqqqqqvqqqqqqqqqqqvqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqvqqqqqqqqqqvqqqqqqvqqqqqqqqqqqqqj(B

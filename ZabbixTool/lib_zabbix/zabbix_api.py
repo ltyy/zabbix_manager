@@ -653,7 +653,7 @@ class zabbix_api:
                 report_max=str(report_max)
                 report_avg=str(report_avg)
                 itemid=str(itemid)
-                report_output.append([host_info[0],host_info[2],item_name,report_min,report_max,report_avg])
+                report_output.append([host_info[0],host_info[1],host_info[2],item_name,report_min,report_max,report_avg])
         if self.output_sort:
             # 排序，如果是false，是升序
             # 如果是true，是降序
@@ -665,14 +665,14 @@ class zabbix_api:
         ################################################################output
         if self.terminal_table:
             table_show=[]
-            table_show.append(["hostid","name","itemName","min","max","avg"])
+            table_show.append(["hostid","hostip","name","itemName","min","max","avg"])
             for report_item in report_output:
                 table_show.append(report_item)
             table=SingleTable(table_show)
             table.title = itemName
             print(table.table)
         else:
-            print("hostid",'\t',"name",'\t',"itemName",'\t',"min",'\t',"max","avg")
+            print("hostid",'\t',"hostip",'\t',"name",'\t',"itemName",'\t',"min",'\t',"max","avg")
             for report_item in report_output:
                 for report_item_i in report_item:
                     print(report_item_i,'\t',end=" ")
@@ -690,7 +690,7 @@ class zabbix_api:
             
             ## 范围
             xlswriter.add_remark(u"范围:"+xls_range,6,sheet_name=sheetName)
-            xlswriter.writerow(["hostid","name","itemName","min","max","avg"],sheet_name=sheetName,border=True,pattern_n=22)
+            xlswriter.writerow(["hostid","hostip","name","itemName","min","max","avg"],sheet_name=sheetName,border=True,pattern_n=22)
             
             ## 输出内容
             for report_item in report_output:
@@ -828,7 +828,7 @@ class zabbix_api:
                 debug_msg="time[%s] hour[%s] itemid:%s update_time:%s trend_sum:%d,sum_avg:%s,sum_num:%d,expected_value:%s type:%s"\
                         %(str(sheetName),str(diff_hour),itemid,item_update_time,trend_sum,str(sum_avg_value),sum_num_value,str(sum_check),value_type_info)
                 self.logger.debug(debug_msg)
-                report_output.append([host_info[0],host_info[2],item_name,"100",str(avg_ping),str(diff_ping)])
+                report_output.append([host_info[0],host_info[1],host_info[2],item_name,"100",str(avg_ping),str(diff_ping)])
         if self.output_sort:
             # 排序，如果是false，是升序
             # 如果是true，是降序
@@ -840,14 +840,14 @@ class zabbix_api:
         ################################################################output
         if self.terminal_table:
             table_show=[]
-            table_show.append([u"hostid",u"资源类型",u"itemName",u"期望值(%)",u"平均值(%)",u"差值(%)"])
+            table_show.append([u"hostid",u"hostip",u"资源类型",u"itemName",u"期望值(%)",u"平均值(%)",u"差值(%)"])
             for report_item in report_output:
                 table_show.append(report_item)
             table=SingleTable(table_show)
             table.title = itemName
             print(table.table)
         else:
-            print("hostid",'\t',u"资源类型",'\t',"itemName",'\t',u"期望值(%)",'\t',u"平均值(%)",'\t',u"差值(%)")
+            print("hostid",'\t',"hostip",'\t',u"资源类型",'\t',"itemName",'\t',u"期望值(%)",'\t',u"平均值(%)",'\t',u"差值(%)")
             for report_item in report_output:
                 for report_item_i in report_item:
                     print(report_item_i,'\t',end=" ")
@@ -865,7 +865,7 @@ class zabbix_api:
             
             ## 范围
             xlswriter.add_remark(u"范围:"+xls_range,6,sheet_name=sheetName)
-            xlswriter.writerow(["hostid",u"资源类型","itemName",u"期望值(%)",u"平均值(%)",u"差值(%)"],sheet_name=sheetName,border=True,pattern_n=22)
+            xlswriter.writerow(["hostid","hostip",u"资源类型","itemName",u"期望值(%)",u"平均值(%)",u"差值(%)"],sheet_name=sheetName,border=True,pattern_n=22)
             
             ## 输出内容
             for report_item in report_output:

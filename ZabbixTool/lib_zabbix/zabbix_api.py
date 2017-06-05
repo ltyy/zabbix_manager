@@ -856,11 +856,10 @@ class zabbix_api:
             xlswriter = XLSWriter.XLSWriter(export_xls["xls_name"])
             # title
             if export_xls["title"] == 'ON':
-                xlswriter.add_image("python.bmg",0,0,6,title_name=export_xls["title_name"],sheet_name=sheetName)
-            else:
-                xlswriter.add_image("python.bmg",0,0,sheet_name=sheetName)
+                xlswriter.add_header(export_xls["title_name"],7,sheet_name=sheetName)
+            
             # 报告周期
-            xlswriter.add_header(u"报告周期:"+title_table,6,sheet_name=sheetName)
+            xlswriter.add_header(u"报告周期:"+title_table,7,sheet_name=sheetName)
             xlswriter.setcol_width([10,50,35,10,10,10],sheet_name=sheetName)
             
             ## 范围
